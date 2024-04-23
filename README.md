@@ -3,7 +3,7 @@ A Vanity address generator for warthog addresses
 
 
 **Usage:**
-`python3 vanity.py --prefix=`
+`python3 vanity.py --prefix=` - Remember to only search for hex characters 0-9 and a-f.
 
 **Prequirements:**
 python3
