@@ -31,8 +31,8 @@ def generate_address(prefix, counter=0):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate Bitcoin addresses until a specified prefix is matched')
-    parser.add_argument('--prefix', type=str, help='Desired prefix for the Bitcoin address')
+    parser = argparse.ArgumentParser(description='Generate Warthog addresses until a specified prefix is matched')
+    parser.add_argument('--prefix', type=str, help='Desired prefix for the Warthog address')
     args = parser.parse_args()
     start_time = time.time()
 
